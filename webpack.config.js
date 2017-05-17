@@ -25,7 +25,7 @@ var config = {
 				exclude: /node_modules/,
 				use: [{
 					loader: 'babel-loader',
-					options: { presets: ['es2015', 'react'] }
+					options: { presets: ['es2015', 'react','stage-0'] }
 				}]
 			},
       { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,   loader: 'url?limit=10000&mimetype=application/font-woff' },

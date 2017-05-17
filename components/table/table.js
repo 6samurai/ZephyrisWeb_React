@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 var tableStyle = {
 	marginTop: '45px'
 };
 
-class ServerTable extends React.Component {
+export default class ServerTable extends React.Component {
 	constructor (props, context) {
 		super(props, context);
 		this.state = {serverStatus: {} };
@@ -53,5 +52,3 @@ class ServerTable extends React.Component {
         </div>;
 	}
 }
-
-module.exports = ServerTable;

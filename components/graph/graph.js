@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Highcharts from 'highcharts';
-import Chart from '../highchart/highchart.js';
+import Chart from '../highchart/highchart_updated.js';
 
 Highcharts.setOptions({  chart: { type: 'spline',
 	animation: Highcharts.svg, // don't animate in old IE
