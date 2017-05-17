@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
 import jQuery from 'jquery';
 import ServerTable from './table/table.js';
 import ServerGraph from './graph/graph.js';
@@ -40,9 +39,7 @@ export default class Parent extends Component{
        <div>
           <ServerTable ref="serverTable" />
           <ServerGraph ref="serverGraph" />
-          <h1>Hello world </h1>
       </div>
-
 		); 
 	}
 }
